@@ -1,0 +1,1273 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Dhurjati', sans-serif;
+}
+
+.container {
+    max-width: 1180px !important;
+    width: 100%;
+}
+
+.home-bgcolor {
+    background: #1B212C;
+    overflow-x: hidden;
+}
+a .fa-brands:hover{
+    color: white !important;
+   
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white ;
+    text-decoration: underline;
+}
+
+/* start  header section */
+
+header {
+    position: relative;
+    padding: 27px 0;
+    background-color: rgba(27, 33, 44, 1);
+    width: 100%;
+    z-index: 10;
+}
+.header.sticky {
+    position: fixed;
+    background-color: rgba(0, 18, 32, 1);
+    padding: 15px;
+}
+.navbar {
+    width: 100%;
+}
+
+.navbar-toggler {
+    background: white !important;
+    margin-left: auto;
+}
+
+.navbar-collapse ul {
+    padding-top: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 15.5px;
+    font-family: Hind Madurai;
+    font-weight: 500;
+    line-height: 21.29px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    text-decoration: underline;
+    color: white !important;
+}
+
+.navbar-nav .nav-item .nav-link.login-btn {
+    display: inline-block;
+    color: red;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: yellow !important;
+    text-decoration: underline;
+}
+
+.login-btn {
+    color: red !important;
+    background-color: yellow;
+    padding: 11.59px 32.46px 11.59px 32.46px !important;
+    transition: all 0.4s;
+    display: inline-block;
+    border-radius: 38.26px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: Hind Madurai;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22.08px;
+    letter-spacing: 5px;
+}
+
+.login-btn:hover {
+    color: yellow !important;
+    background-color: red;
+    text-decoration: underline;
+    transition: all 0.4s;
+    display: inline-block;
+}
+
+/* start banner section */
+.banner {
+    position: relative;
+    padding: 144px 0;
+    color: white;
+    text-align: center;
+    background-image: url(../images/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner::before {
+    top: 0;
+}
+
+.banner::before,
+.footer:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 50px;
+    left: 0;
+    background-image: url(../images/Capa_1-2.png);
+}
+
+.footer:before {
+    top: -45px;
+}
+
+.banner-front-img {
+    max-width: 1087px;
+}
+
+.banner-front-img img {
+    width: 100%;
+}
+
+.banner-title h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Dhurjati;
+    font-weight: 400;
+    letter-spacing: 7px;
+}
+
+.banner-title p {
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: Dhurjati;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-bottom: 34px;
+}
+
+.start-btn a {
+    display: inline-block;
+    color: red;
+    border: 2px dashed red;
+    padding: 15.14px 42.38px 15.14px 42.38px;
+    text-transform: uppercase;
+    border-radius: 49.95px;
+    transition: all 0.5s;
+    font-family: Hind Madurai;
+    font-size: 20.89px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.start-btn a:hover {
+    color: white !important;
+    border: 2px dashed white;
+    transition: all 0.5s;
+}
+
+
+/* start Empowering section */
+.Empowering {
+    padding: 74px 0;
+    color: white;
+}
+
+.flip-block {
+    padding: 24.87px 30.39px 24.87px 30.39px;
+    box-shadow: -3px 0 33.81px 15.19px rgba(0, 0, 0, .2);
+    transition: 0.3s all ease-in-out;
+    margin-bottom: 50px;
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    transition: transform 0.7s ease;
+    border-radius: 12px;
+}
+
+.flip-block:hover {
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    transition: transform 0.7s ease;
+    box-shadow: -3px 0 33.81px 15.19px rgba(0, 0, 0, .4);
+}
+
+.flip-block:hover .hover-img {
+    display: none;
+}
+
+.flip-block:hover .show-img {
+    transform: scaleX(-1);
+    transition: transform 0.7s ease;
+}
+
+.flip-block:hover .show-img path {
+    fill: white;
+}
+
+.flip-block img {
+    margin-bottom: 10px;
+}
+
+
+.flip-block h4 {
+    font-family: Dhurjati;
+    font-weight: 400;
+    font-size: 22.1px;
+    line-height: 50.45px;
+    letter-spacing: 6.95px;
+}
+
+.flip-block p {
+    font-family: Hind Madurai;
+    font-weight: 400;
+    font-size: 14.73px;
+    line-height: 20.33px;
+    letter-spacing: 1.51px;
+}
+
+.Empowering-content h3 {
+    font-family: Dhurjati;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 6px;
+}
+
+.Empowering-content .border-para {
+    font-family: Hind Madurai;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 2px;
+    padding-bottom: 27px;
+    position: relative;
+}
+
+.Empowering-content .border-para:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 2px;
+    border: 2px dashed red;
+}
+
+.Empowering-content .simple-para {
+    margin-top: 27px;
+    font-family: Hind Madurai;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+
+.discover-btn-wrapper {
+    text-align: center;
+    width: 100%;
+}
+
+.discover-btn-wrapper .discover-btn {
+    color: white;
+    position: relative;
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    display: inline-block;
+    background-image: url(../images/target.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 50px 50px;
+    padding: 15px 0 15px 60px;
+}
+
+.discover-btn-wrapper .discover-btn:hover::after {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    left: 22px;
+    top: 22px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.discover-btn-wrapper .discover-btn:hover .show-icon {
+    display: none;
+}
+
+.discover-btn:hover {
+    background-image: url(../images/target-white.png);
+}
+
+/* start main-motive section */
+.main-motive {
+    color: white;
+    padding: 70px 30px;
+}
+
+.content-bg {
+    background-color: #2B3445;
+    margin-bottom: 30px;
+}
+
+.main-motive .main-content {
+    max-width: 720px;
+    padding: 60px 0;
+}
+
+.main-motive .main-content {
+    max-width: 720px;
+    padding: 60px 0;
+}
+
+.main-content h3 {
+    font-family: Dhurjati;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 7px;
+    padding-bottom: 31px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.main-content h3.left-border:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 2px;
+    border: 2px dashed red;
+}
+
+.main-content h3 span {
+    display: block;
+}
+
+.main-content p {
+    font-family: Hind Madurai;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1.8px;
+    margin-top: 31px;
+}
+
+
+.main-content-img {
+    margin-bottom: 30px;
+}
+
+.main-content-img img {
+    width: 100%;
+}
+
+/* start feature-block section */
+
+.feature-block {
+    padding: 80px 0;
+    background-color: black;
+    color: white;
+}
+
+.feature-block .features-wrapper {
+    display: flex;
+}
+
+.feature-block .feature-para {
+    max-width: 881px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Dhurjati;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.single-feature {
+    width: 100%;
+}
+
+.single-feature ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-feature ul li {
+    display: inline-block;
+    font-family: Dhurjati;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 4.61568546295166px;
+    margin-bottom: 30px;
+    width: 100%;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+.single-feature ul li:hover{
+    transform: scale(1.2);
+}
+
+.single-feature ul li img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+/* start potential section */
+.potential-section {
+    background-image: url(../images/mask.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: white;
+}
+
+.row.card-border {
+    padding: 75px 0;
+    background: rgba(27, 33, 44, 0.3);
+    border-radius: 55px;
+}
+
+.potential-head p {
+    font-family: Hind Madurai;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+    max-width: 1009px;
+    margin: 0 auto;
+    margin-bottom: 69px;
+}
+
+.potential-para p {
+    max-width: 960px;
+    font-family: Hind Madurai;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 135px;
+}
+
+.feature-wrapper {
+    position: relative;
+    background-color: yellow;
+    padding: 15px 5px 0 5px;
+    border-radius: 43px;
+}
+
+.feature-wrapper h2 {
+    color: red;
+    text-align: center;
+    font-family: Hind Madurai;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.feature-wrapper .feature-btn {
+    background-color: yellow;
+    color: rgba(231, 58, 58, 1);
+    transition: all 0.3s ease;
+}
+
+.feature-wrapper .feature-btn:hover {
+    color: white !important;
+    background-color: rgba(231, 58, 58, 1);
+    transition: all 0.3s ease;
+}
+
+.features-cards {
+    text-align: center;
+    background: #1B212CCC;
+    padding: 27.81px 8.34px 27.81px 8.34px;
+    border-radius: 43px;
+    margin-bottom: 40px;
+}
+
+.features-cards h3 {
+    font-family: Hind Madurai;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 31px;
+    margin-bottom: 20px;
+    color: red;
+    text-transform: uppercase;
+}
+
+.features-cards h4 {
+    font-family: Hind Madurai;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 31px;
+    margin: 0;
+}
+
+.features-cards h4 span {
+    color: red;
+}
+
+.features-cards p {
+    font-family: Hind Madurai;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    position: relative;
+}
+
+.red-overlay {
+    background: linear-gradient(90deg, rgba(27, 33, 44, 0) 0%, #E73A3A 52.78%, rgba(27, 33, 44, 0) 98.39%);
+    height: 2px;
+    margin: 31px 0;
+}
+
+.features-cards p span {
+    color: red;
+}
+
+.features-cards h5 {
+    font-family: Hind Madurai;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 31px;
+    margin: 40px 0 35px;
+}
+
+.mt {
+    margin-top: 20px;
+}
+
+.feature-btn {
+    display: inline-block;
+    padding: 12.17px 34.09px 12.17px 34.09px;
+    border-radius: 40px;
+    background: rgba(231, 58, 58, 1);
+    color: white;
+    font-family: Hind Madurai;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 27px;
+    transition: all 0.3s ease;
+}
+.feature-btn:hover{
+    background-color: yellow;
+    color: rgba(231, 58, 58, 1) !important;
+    transition: all 0.3s ease;
+}
+
+/* start cta section */
+.cta {
+    padding: 104px 0 104px 0;
+    background-image: url(../images/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-color: #001220;
+    background-position-x: center;
+}
+
+.cta-head {
+    max-width: 679px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cta-head h2 {
+    font-family: Dhurjati;
+    font-size: 67px;
+    font-weight: 400;
+    line-height: 55px;
+    margin-bottom: 74px;
+}
+
+.cta-head p {
+    font-family: Hind Madurai;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1.8px;
+    text-align: center;
+}
+
+.cta .contact-btn {
+    padding: 11.59px 32.46px 11.59px 32.46px;
+    color: white !important;
+    display: inline-block;
+    background: rgba(49, 89, 165, 1);
+    border-radius: 38.26px;
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    margin-top: 35px;
+}
+
+.cta .contact-btn:hover {
+    color: rgba(49, 89, 165, 1) !important;
+    background: white;
+    text-decoration: underline;
+}
+
+/* start footer section */
+.footer {
+    position: relative;
+    padding: 111px 0;
+    background-color: rgba(27, 33, 44, 1);
+}
+
+.mb {
+    margin-bottom: 30px;
+}
+
+.foot-icons-box h5 {
+    font-family: Hind Madurai;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 2.6px;
+    color: white;
+    margin: 20px 22px;
+}
+
+.footer input[type="email"] {
+    border-radius: 49px;
+    padding-left: 12px;
+    height: 44px;
+    width: 230px;
+    background-color: transparent;
+    border-top: 0.5px solid rgba(237, 239, 240, 1);
+    border-left: 0.5px solid rgba(237, 239, 240, 1);
+    border-bottom: 0.5px solid rgba(237, 239, 240, 1);
+}
+
+.footer input[type="submit"] {
+    border-radius: 49px;
+    height: 44px;
+    width: 140px;
+    background-color: yellow;
+    color: red;
+    margin-left: -40px;
+    border: 0.5px solid rgba(237, 239, 240, 1);
+    cursor: pointer;
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
+
+input[type="reset"]:hover {
+    color: yellow;
+    background: red;
+    text-decoration: underline;
+}
+
+.footer ::placeholder {
+    color: rgba(237, 239, 240, 0.5);
+}
+
+.icons {
+    margin-top: 22px;
+}
+
+.icons a .fa-brands {
+    font-size: 42px;
+    border-radius: 50%;
+    color: red;
+    margin-right: 15px;
+}
+
+.quick-links h5 {
+    color: white;
+    font-family: Hind Madurai;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.quick-links h5 img {
+    width: 27px;
+}
+
+.quick-links ul {
+    margin-top: 22px;
+}
+
+.quick-links ul li a {
+    margin-bottom: 8px;
+    display: inline-block;
+    color: rgba(145, 138, 138, 1);
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.quick-links ul li.active a {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.quick-links ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-overlay {
+    background: linear-gradient(90deg, rgba(27, 33, 44, 0) 0%, #E73A3A 52.78%, rgba(27, 33, 44, 0) 98.39%);
+    height: 2px;
+    margin: 31px 0;
+}
+
+.footer-bottom p {
+    font-family: Hind Madurai;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+}
+
+.footer-bottom p span {
+    color: red;
+}
+
+.footer-bottom p span:hover { 
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* end footer section */
+
+/* start pricing page  */
+/* start pricing-block section */
+
+.pricing-block {
+    padding: 170px 0 170px;
+    color: white;
+    background: #000;
+}
+
+.contact-head h2,
+.pricing-block .packages-heading h2 {
+    color: rgba(231, 58, 58, 1);
+    font-family: Dhurjati;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 7.545224666595459px;
+    text-align: center;
+    margin-bottom: 47px;
+    text-transform: uppercase;
+}
+
+.pricing-container {
+    padding: 75px 15px;
+    text-align: center;
+}
+
+.pricing-container .pricing-head h3 {
+    font-family: Hind Madurai;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 40px;
+}
+
+.contact-head p,
+.pricing-container .pricing-para p {
+    font-family: Hind Madurai;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+.pricing-container .pricing-para p {
+    max-width: 960px;
+    margin: 0 auto 120px;
+}
+.pricing-bg-img{
+    background-image: url(../images/prices-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.features-cards.pricing-details {
+    background: transparent;
+}
+
+.features-cards.pricing-details .first-detail {
+    margin-bottom: 27px;
+}
+
+.features-cards.pricing-details .first-detail,
+.features-cards.pricing-details .second-detail {
+    text-align: right;
+
+}
+
+.features-cards.pricing-details .first-detail li,
+.features-cards.pricing-details .second-detail li {
+    font-family: Hind Madurai;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 5px;
+}
+
+.features-cards.prices-card {
+    padding: 22.12px 6.64px 22.12px 6.64px;
+    border-radius: 34.29px;
+}
+
+.features-cards.prices-card h3 {
+    font-family: Hind Madurai;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.features-cards.prices-card h4 {
+    font-family: Hind Madurai;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.features-cards.prices-card p {
+    font-family: Hind Madurai;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+}
+
+.features-cards.prices-card .first-data li {
+    font-family: Hind Madurai;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.prices-card .overlays li {
+    position: relative;
+    font-family: Hind Madurai;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.prices-card .overlays li.red-circle {
+    position: relative;
+}
+
+.prices-card .overlays li.red-circle:after {
+    position: absolute;
+    content: "";
+    background-color: red;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    left: 50%;
+    top: -17px;
+}
+
+.prices-card .overlays li.blue-overlay {
+    background: linear-gradient(90deg, rgba(27, 33, 44, 0) 0%, rgba(55, 92, 159, 0.8) 49.2%, rgba(27, 33, 44, 0) 98.39%);
+    height: 2px;
+    margin: 22px auto;
+
+}
+
+button.feature-btn {
+    margin: 22px 0;
+    font-family: Hind Madurai;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 4.98px 16.04px 4.98px 16.04px;
+    border: 0;
+}
+
+.none {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.features-cards.pricing-details .feature-btn {
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding: 9.68px 27.11px 9.68px 27.11px;
+    border-radius: 32px;
+}
+
+/* start contact page  */
+/* start contact-block section */
+.contact-block {
+    padding: 144px 0 184px;
+    background-color: black;
+}
+
+.contact-head h2 {
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.contact-head p {
+    margin-bottom: 57px;
+    text-align: center;
+    color: white;
+}
+
+.contact-form {
+    padding: 40px;
+    background: rgba(43, 52, 69, 1);
+    border-radius: 24px;
+    margin-bottom: 30px;
+}
+
+.contact-form .text-wrap input[type="text"] {
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+    margin-bottom: 20px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+    margin-bottom: 20px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.contact-form textarea {
+    min-height: 140px;
+}
+
+.contact-form input[type="submit"] {
+    font-family: Hind Madurai;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 24px;
+    padding: 12px 120px 12px 120px;
+    width: 100%;
+    text-transform: capitalize;
+    color: white;
+    background-color: rgba(49, 89, 165, 1);
+    border: 1px solid transparent;
+}
+
+.contact-form input[type="submit"]:hover {
+    color: rgba(130, 130, 130, 1);
+    background: yellow;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-form::placeholder {
+    color: rgba(130, 130, 130, 1);
+}
+
+.map-wrapper {
+    max-width: 601px;
+    min-height: 535px;
+}
+
+.map-wrapper img {
+    width: 100%;
+    height: 535px;
+}
+
+.contact-cta {
+    background-image: url(../images/contact-bg.png);
+    padding: 31px 41px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 63px;
+}
+
+.officaal-address {
+    border-radius: 24px;
+    padding: 26px 27px 26px 27px;
+    background-color: rgba(0, 18, 32, 0.7);
+    margin-bottom: 50px;
+}
+
+.officaal-address a {
+    color: white;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.officaal-address a .country {
+    display: block;
+    padding-left: 25px;
+}
+
+.officaal-address .fa-solid {
+    color: red;
+    margin-right: 5px;
+}
+
+.contact-cta-heading h3 {
+    font-family: Dhurjati;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 6.764684200286865px;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (min-width:1200px) {
+    .navbar-nav {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navbar-nav .nav-item {
+        padding-right: 30px;
+    }
+
+    .login-btn {
+        margin-top: 0;
+    }
+
+    /* start banner section */
+
+    .banner-title h1 {
+        font-size: 88.36px;
+        letter-spacing: 7px;
+    }
+
+    .banner-title p {
+        font-size: 20px;
+    }
+
+    /* start Empowering section */
+    .Empowering-content {
+        padding: 72px 0 72px 60px;
+    }
+
+    .Empowering-content h3 {
+        font-size: 61px;
+    }
+
+    /* start main-motive section */
+    .main-motive {
+        padding: 122px 0;
+    }
+
+    .main-motive .main-content {
+        margin-bottom: 30px;
+        padding: 0 0 70px 79px;
+    }
+
+    .main-content {
+        margin-bottom: 0;
+        margin-top: -30px;
+    }
+
+    .main-content h3 {
+        font-size: 66.67px;
+    }
+
+    .main-content h3.right-border {
+        position: relative;
+    }
+
+    .main-content h3.right-border:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 30%;
+        height: 2px;
+        border: 2px dashed red;
+        right: 0 !important;
+    }
+
+    .main-content.right-align {
+        text-align: right;
+        padding-right: 79px;
+    }
+
+    .main-content-img {
+        height: 625px;
+        margin: 0;
+    }
+
+    .main-content-img img {
+        height: 100%;
+    }
+
+    .mk-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* start feature-block section */
+
+    .feature-block {
+        padding: 188px 0;
+    }
+
+    .feature-wrapper {
+        margin-top: -60PX;
+    }
+
+    .feature-block .feature-para {
+        max-width: 881px;
+        text-align: center;
+        margin: 0 auto;
+        font-family: Dhurjati;
+        font-size: 56.32px;
+        font-weight: 400;
+        line-height: 46.28px;
+        margin-bottom: 70px;
+        letter-spacing: 6.37px;
+    }
+
+    .single-feature ul {
+        flex-direction: row;
+        max-width: 935px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .single-feature ul li {
+        padding-right: 30px;
+        width: auto;
+    }
+
+    /* start potential section  */
+
+    .potential-head p {
+        font-size: 45px;
+        padding: 0 40px;
+    }
+
+    /* start cta section */
+    .cta {
+        padding: 215px 0 215px;
+        background-position: bottom;
+    }
+
+    .cta-head {
+        margin-top: -160px;
+    }
+
+    /* start footer selection */
+    input[type="email"] {
+        width: 355px;
+    }
+
+    /* start pricing page  */
+    /* start pricing-block section */
+    .pricing-block .packages-heading h2 {
+        font-size: 66.67px;
+    }
+
+    .pricing-container .pricing-head h3 {
+        font-size: 45px;
+        margin-bottom: 69px;
+    }
+
+    /* start contact-block section */
+    /* start contact-block section */
+    .contact-form {
+        padding: 51px;
+        height: 535px;
+        margin-bottom: 0;
+    }
+
+    .contact-form .text-wrap {
+        display: flex;
+        gap: 21px;
+    }
+
+    .contact-form .text-wrap input[type="text"] {
+        width: 50%;
+    }
+
+    .officaal-address {
+        margin-bottom: 0;
+    }
+
+    .contact-cta-heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .contact-cta-heading h3 {
+        font-size: 59.78px;
+    }
+}
